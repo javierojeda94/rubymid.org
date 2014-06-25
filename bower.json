@@ -1,0 +1,21 @@
+{
+  "name": "rubymid",
+  "version": "1.0",
+  "authors": [
+    "Juan Pablo Zamora <jupazave@gmail.com>"
+  ],
+  "description": "Ruby Mid's Landing page",
+  "license": "MIT",
+  "homepage": "http://rubymid.org",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "furatto": "~3.0.3",
+    "jquery": "~2.1.1"
+  }
+}
