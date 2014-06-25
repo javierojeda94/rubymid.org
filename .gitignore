@@ -1,1 +1,5 @@
-assets/bower_components/*
+public/assets/bower_components/*
+
+.sass-cache/
+
+Gemfile.lock
