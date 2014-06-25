@@ -1,3 +1,35 @@
 // customize bootstrap variables here:
+
 @import "variables";
 @import "bootstrap";
+@import "font-awesome";
+@import "space";
+
+h1{
+	font-size: 72px;
+}
+
+h3{
+	color: #ccc;
+	font-size: 16px;
+	margin-top: -8px;
+}
+
+.element{
+	background: #ddd;
+	border-radius: 15px;
+	padding: 10px;
+}
+
+.icon{
+	@extend .text-center;
+
+	font-size: 125px;
+}
+
+footer{
+	background-color:#eee;
+	min-height: 25px;
+	position: absolute;
+	bottom: 0;
+}

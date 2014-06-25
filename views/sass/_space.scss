@@ -1,0 +1,8 @@
+@for $i from 0 through 14{
+	.space-#{$i*10} {
+    margin-top: #{$i*10}px;
+  }
+  .space-#{($i*10)+5} {
+    margin-top: #{($i*10)+5}px;
+  }
+}

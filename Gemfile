@@ -12,4 +12,6 @@ gem 'haml'
 gem 'sass'
 gem 'compass'
 
+gem 'font-awesome-sass'
+
 gem 'bootstrap-sass'
