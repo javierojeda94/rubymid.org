@@ -1,11 +1,14 @@
 # app.rb
 
 require 'sinatra'
+require 'sinatra/activerecord'
 require "sinatra/content_for"
 require 'sinatra/flash'
 require 'sinatra/redirect_with_flash'
 require 'bootstrap-sass'
 require 'font-awesome-sass'
+require './environments'
+enable :sessions
 
 =begin
 configure do
